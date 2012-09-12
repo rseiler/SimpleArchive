@@ -4,18 +4,29 @@ SimpleArchive
 It's a very simple and fast archive library for Java.
  
 It supports: 
+
 - UTF-8 names
+
 - Adding files to an existing archive without the need to recreate the archive
+
 	
 It doesn't supports:
+
 - Compression
+
 - Any kind of meta data
+
 	
 Limitations:
+
 - 2gb for a stored file
+
 - 2gb for the index
+
 - 2^63 bytes archive size
+
 - 255 bytes utf-8 file name
+
 
 You could easily increase the limitation for a stored file and for the index if you change it to a unsigned int or to a long.
 
